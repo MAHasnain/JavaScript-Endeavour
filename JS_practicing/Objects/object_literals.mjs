@@ -14,7 +14,9 @@ let JSUser = {
 console.log(JSUser["full name"]);
 
 
-
+const {name, jaahilhai} = JSUser;
+console.log(name);
+console.log(jaahilhai);
 
 
 /// 1 se ziyadda bnde ki bat ki  ye ARRAY h 
@@ -90,11 +92,11 @@ let user = {
 
 let user2 = {...user};
 
-console.log(user2.maritalStatus = "single");
-console.log(user2.marride = "false");
-console.log(user.newPassword = "******");
-console.log("user :", user);
-console.log("user2 :", user2);
+// console.log(user2.maritalStatus = "single");
+// console.log(user2.marride = "false");
+// console.log(user.newPassword = "******");
+// console.log("user :", user);
+// console.log("user2 :", user2);
 
 
 

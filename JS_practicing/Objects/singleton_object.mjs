@@ -1,12 +1,49 @@
 /// singleton object
 
-const userName = new Object();
+// const userName = new Object();
 
-userName.name = "Muhammad Atta ul Hasnain";
-userName.gmail = "mah@gmail.com";
-userName.isLoggedIn = false;
+// userName.name = "Muhammad Atta ul Hasnain";
+// userName.gmail = "mah@gmail.com";
+// userName.isLoggedIn = false;
 
-// console.log(userName);
+// // console.log(userName);
+
+
+// console.log(regularUser.status = "married");
+
+// console.log(regularUser.userFullName);
+// console.log(regularUser["D.O.B"]);
+// console.log(regularUser["status"]);
+// console.log(regularUser.address.zipCode?.country); ///  optional chaining
+
+
+
+// const newUser = {...regularUser, ...userName};
+// console.log(newUser);
+
+// const obj1 = {
+//     1: "a",
+//     2: "b",
+//     3: "c"
+// }
+
+// const obj2 = {
+//     4: {
+//         1: "a",
+//         2: "b",
+//         3: "c"
+//     },
+//     5: "b",
+//     6: "c"
+// }
+
+// // const obj3 = Object.assign({}, obj1, obj2);
+// const obj3 = {...obj1, ...obj2};
+
+// console.log(obj3[4][2]);
+
+// console.log(obj3);
+
 
 const regularUser = {
     email: "mah@gmail.com",
@@ -38,37 +75,37 @@ const regularUser = {
     "status": "single"
 }
 
-console.log(regularUser.status = "married");
+// console.log(regularUser);
 
-console.log(regularUser.userFullName);
-console.log(regularUser["D.O.B"]);
-console.log(regularUser["status"]);
-console.log(regularUser.address.zipCode?.country); ///  optional chaining
+// console.log(Object.entries(regularUser))
+// console.log(Object.values(regularUser))
+// console.log(Object.keys(regularUser))
+console.log(Object.getOwnPropertyNames(regularUser.userFullName))
+
+
+// console.log(Object.hasOwnProperty(regularUser, "D.B"));
 
 
 
-const newUser = {...regularUser, ...userName};
-console.log(newUser);
 
-// const obj1 = {
-//     1: "a",
-//     2: "b",
-//     3: "c"
-// }
 
-// const obj2 = {
-//     4: {
-//         1: "a",
-//         2: "b",
-//         3: "c"
-//     },
-//     5: "b",
-//     6: "c"
-// }
 
-// // const obj3 = Object.assign({}, obj1, obj2);
-// const obj3 = {...obj1, ...obj2};
+const { email, userFullName } = regularUser;
 
-// console.log(obj3[4][2]);
+console.log(email);
+console.log(userFullName);
 
-// console.log(obj3);
+
+const { name: { firstName, lastName } } = userFullName;
+console.log(userFullName.name)
+
+
+const { userFullName: name } = regularUser;
+console.log(name);
+
+
+// let newUser = Object.keys(regularUser);
+
+// newUser.filter((val) => {
+//     console.log(val);
+// })

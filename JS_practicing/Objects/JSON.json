@@ -1,0 +1,67 @@
+{
+    "results": [
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Logan",
+    "last": "Mackay"
+    },
+    "location": {
+    "street": {
+    "number": 8707,
+    "name": "Regent Ave"
+    },
+    "city": "Killarney",
+    "state": "Nova Scotia",
+    "country": "Canada",
+    "postcode": "Y1W 2S3",
+    "coordinates": {
+    "latitude": "-64.9076",
+    "longitude": "-19.5320"
+    },
+    "timezone": {
+    "offset": "-4:00",
+    "description": "Atlantic Time (Canada), Caracas, La Paz"
+    }
+    },
+    "email": "logan.mackay@example.com",
+    "login": {
+    "uuid": "894dc783-19c7-4ed0-9191-af673332ba17",
+    "username": "organicbutterfly662",
+    "password": "aikido",
+    "salt": "hLVC41bu",
+    "md5": "22059fabd1f11f297a4c13a4cae1fe8c",
+    "sha1": "1c62f565b013ef7ef15256592e6706dac7fd3757",
+    "sha256": "23d93bec91ea06d0097b0fe33226257908247ace685a9023e0a99cc2123d8b98"
+    },
+    "dob": {
+    "date": "1999-11-15T12:53:53.821Z",
+    "age": 23
+    },
+    "registered": {
+    "date": "2009-10-25T03:28:11.139Z",
+    "age": 14
+    },
+    "phone": "F22 E76-1462",
+    "cell": "H78 X60-2197",
+    "id": {
+    "name": "SIN",
+    "value": "056865819"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/men/48.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+    },
+    "nat": "CA"
+    }
+    ],
+    "info": {
+    "seed": "7561ffc7f3b4cbd2",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+    }
+    

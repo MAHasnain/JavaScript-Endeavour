@@ -103,3 +103,17 @@ const arrHandle = (arr) => {
 
 console.log(arrHandle([345, 56456, "90qw48"]))
 
+
+
+
+
+let scoreMin = 10;
+let scoreMax = 20;
+
+function addScore(num1, num2) {
+  let totalScore = num1 + num2
+  return totalScore;
+}
+
+let finalResult = addScore(scoreMin, scoreMax)
+console.log(finalResult)

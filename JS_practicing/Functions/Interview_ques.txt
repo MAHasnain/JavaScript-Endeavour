@@ -1,0 +1,25 @@
+///  Interview
+
+some time global scope k pollution (me variables ki declaration or whatever) se problem hoti to us se bchny k liye IIFE ka use kiya jata
+
+(() => {
+    console.log("MAH")
+})();
+
+
+
+
+JS Execution Context
+
+browser me run hoty hi sb se pehly 
+
+1. Global Execution Context                     ///browser ka global Context this ka window object hota h
+2. Function Execution Context
+3. Eval Execution Context
+
+
+
+JS file running Phase
+
+1.Memory creation Phase
+2.Execution Phase

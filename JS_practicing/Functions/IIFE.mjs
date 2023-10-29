@@ -48,26 +48,33 @@ ans.setter("mahasnain");
 ans.getter();
 
 
+// let aswr = (function () {
+//   var prvVar = "M.A.H";
+//   return {
+//     getter: function () {
+//       console.log(prvVar);
+//     },
+//     setter: function (params) {
+//       prvVar = params;
+//     },
+//   };
+// })();
+
+// aswr.setter(2394);
+// aswr.getter();
+
+
+((userName) => {
+  console.log(`${userName} is logged in`);
+}) ("mah");
+
+
+
+((name)=> {
+  console.log(`${name}`)
+})("atta")
 
 
 
 
 
-
-
-
-
-let aswr = (function () {
-  var prvVar = "M.A.H";
-  return {
-    getter: function () {
-      console.log(prvVar);
-    },
-    setter: function (params) {
-      prvVar = params;
-    },
-  };
-})();
-
-aswr.setter(2394);
-aswr.getter();

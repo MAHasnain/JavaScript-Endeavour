@@ -55,6 +55,11 @@
 
 
 
+
+
+
+////   PRIMITIVE DATA TYPES    
+
 // Number   427
 // null   (empty) / standalone value
 // String   "MAHs"
@@ -63,4 +68,7 @@
 // Boolean     true/false
 // undefined    (undefined)
 
-console.log(typeof );
+console.log(typeof null);
+
+
+////  NON PRIMITIVE DATA TYPES   (return object)

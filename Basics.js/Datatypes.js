@@ -132,3 +132,4 @@ myObj2.email = "mah@emailcom";
 console.log(myObj2.email);
 console.log(myObj.email);
 
+console.log(myObj.name);

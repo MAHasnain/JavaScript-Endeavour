@@ -17,8 +17,15 @@ const otherNumber = 346.383;
 console.log(otherNumber.toFixed());
 
 
-
-
-
 console.log(Math)
 
+Math.min(2, 4, 8, 23);
+Math.max(345, 876, 345, 38);
+
+
+let minVal = 10;
+let maxVal = 20;
+
+console.log(Math.floor((Math.random(maxVal - minVal)* 10) + minVal));
+
+console.log(Math.floor(Math.random() * (maxVal - minVal + 1) + minVal));

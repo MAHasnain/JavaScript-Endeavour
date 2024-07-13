@@ -1,4 +1,4 @@
-// Arrays 
+// Arrays  (Collection of multiple items in single variable)
 
 
 // console.log(myMultipleElemsArr[2]);
@@ -9,6 +9,8 @@
 // console.log(myMultipleElemsArr.indexOf(true));
 // console.log(myArr.join());
 // console.log(myArr.join());
+
+
 
 
 // const newArr = myArr.slice(2, 4);
@@ -22,7 +24,7 @@ let myArr1 = [1, 7, 3, 9, 5];
 // let myMultipleElemsArr = [0, 1, "2", true, 4, {name : "M.A.Hasnain"}, {myAge: 23, myId : 1234}];
 
 const newArr2 = myArr.splice(1, 3);
-console.log("splice (mutable) array ko maniulate kr deta h")
+console.log("splice (mutable) array ko manipulate kr deta h")
 
 console.log("B: splice", newArr2);
 

@@ -133,9 +133,27 @@ function Car (breaks, oil, engine) {
  this.oil = oil,
  this.engine = engine,
  this.stopthecar = function () {
-  console.log(breaks + " " + engine);
+//   console.log(breaks + " " + engine);
  }
 }
 
 var car1 = new Car ("full100", "shell", "andEnginePowerOff");
-console.log(car1.stopthecar());
+// console.log(car1.stopthecar());
+
+
+
+let num = 4123;
+
+function checkEvenOrOdd () {
+    if (num % 2 === 0) {
+        console.log(`${num} is even.`);
+    } else {
+        console.log(`${num} is odd.`);
+    }
+    return num;
+}
+
+checkEvenOrOdd();
+
+
+

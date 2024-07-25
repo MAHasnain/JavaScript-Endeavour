@@ -44,7 +44,22 @@ div.innerText = "M.A.H";                            /// way 1
 const addText = document.createTextNode("M.A.H");   /// way 2
 div.appendChild(addText);
 
-document.body.appendChild(div);
+// document.body.appendChild(div);
 
 console.log(div);
+
+// Edit
+
+const ul = document.querySelector('ul');
+// console.log(ul);
+const changeText = document.querySelector('li');
+// console.log(`changeText`, changeText);
+changeText.outerHTML = `<li>February</li>`;
+
+// remove
+
+const li = document.querySelector('li');
+li.remove();
+
+
 

@@ -54,3 +54,6 @@ console.log(result);
 // result = multiplyby5.power
 result = multiplyby5.prototype
 console.log(result);
+
+
+

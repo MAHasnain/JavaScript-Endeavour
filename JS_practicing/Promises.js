@@ -18,7 +18,17 @@
 // });
 
 
+const arr = [1, 2, 3, 4]
+arr[0] = 3;
+arr[1] = 5;
+arr[2] = 7;
+arr[3] = 9;
 
+
+
+
+
+console.log(arr)
 
 
 
@@ -65,11 +75,11 @@ const URL = "https://randomuser.me/api/";
 
 // getRandomUser();
 
-fetch(URL).then((res) => {
-    console.log(res)
-    return res.json();
-}).then((data) => {
-    console.log(data)
-}).catch(function (error) {
-    console.log(error)
-});
+// fetch(URL).then((res) => {
+//     console.log(res)
+//     return res.json();
+// }).then((data) => {
+//     console.log(data)
+// }).catch(function (error) {
+//     console.log(error)
+// });
